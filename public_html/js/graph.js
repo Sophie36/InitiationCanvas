@@ -29,7 +29,7 @@ function zoneGraph(){
         
         ctx.beginPath();
         ctx.fillStyle =color(note);
-        ctx.fillRect(50,0,20,note*10);
+        ctx.fillRect(50,200-note*10,20,note*10);
         ctx.closePath();
     
         ctx.beginPath();
@@ -48,7 +48,7 @@ function zoneGraph(){
         ctx.closePath();
     } 
     
-    var note=20;
+    var note=17;
     
 function color(note){
         if (note<=8){
